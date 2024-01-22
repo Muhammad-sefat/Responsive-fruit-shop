@@ -21,8 +21,211 @@
 
 </head>
 <body class="font-lato">
-    <header></header>
-    <main></main>
+    <header class="md:container mx-auto py-5">
+        <nav class="h-16 mx-5 p-5 text-white lg:mx-24 flex items-center justify-between bg-[#F85559] rounded-md">
+            <div class="text-lg md:hidden"><i class="fa-solid fa-bars"></i></div>
+            <div class="hidden md:block">
+                <a class="text-base font-medium ml-5" href="#">Home</a>
+                <a class="text-base font-medium ml-5" href="#">About Us</a>
+                <a class="text-base font-medium ml-5" href="#">Shop</a>
+                <a class="text-base font-medium ml-5" href="#">All Fruit</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <img src="images/logo.png">
+                <h2  class="text-xl">FruitShop</h2>
+            </div>
+            <div class="hidden md:block">
+             <div class="bg-white py-2 px-4 rounded-lg text-gray-800">
+                <input class="outline-0 border-0" type="text" placeholder="Search here">
+                <i class="fa-solid fa-magnifying-glass"></i>
+             </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="md:container mx-auto">
+        <section class="py-5 px-2 md:py-18 lg:mx-20">
+            <div>
+                <div class="carousel w-full">
+                    <div id="slide1" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('images/banner1.png')] bg-center bg-cover h-[70vh] rounded-lg">
+
+                        <div class="mx-auto text-center flex items-center justify-between">
+                            <div>
+                                <h1 class="text-white text-2xl lg:text-5xl font-extrabold leading-normal">Exotic tastes at <br> your doorstep</h1>
+                                <p class="text-white py-3">We supply highly quality organic products</p>
+                                <button class="bg-[#F85559] text-white text-base py-2 px-4 rounded-lg">Shop Now</button>
+                            </div>
+                        </div>
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a> 
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                      </div>
+                    </div> 
+                    <div id="slide2" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('images/banner2.png')] bg-center bg-cover h-[70vh] rounded-lg">
+
+                        <div class="mx-auto text-center flex items-center justify-between pb-4">
+                            <div>
+                                <h1 class="text-white text-2xl md:text-5xl font-extrabold leading-normal">Exotic tastes at <br> your doorstep</h1>
+                                <p class="text-white py-3">We supply highly quality organic products</p>
+                                <button class="bg-[#F85559] text-white text-base py-2 px-4 rounded-lg">Shop Now</button>
+                            </div>
+                        </div>
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a> 
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                      </div>
+                    </div> 
+                    <div id="slide3" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('images/banner3.png')] bg-center bg-cover h-[70vh] rounded-lg">
+
+                        <div class="mx-auto text-center flex items-center justify-between pb-4">
+                            <div>
+                                <h1 class="text-white text-2xl md:text-5xl font-extrabold leading-normal">Exotic tastes at <br> your doorstep</h1>
+                                <p class="text-white py-3">We supply highly quality organic products</p>
+                                <button class="bg-[#F85559] text-white text-base py-2 px-4 rounded-lg">Shop Now</button>
+                            </div>
+                        </div>
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a> 
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                      </div>
+                    </div> 
+                    <div id="slide4" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('images/banner4.png')] bg-center bg-cover h-[70vh] rounded-lg">
+
+                        <div class="mx-auto text-center flex items-center justify-between pb-4">
+                            <div>
+                                <h1 class="text-white text-2xl md:text-5xl font-extrabold leading-normal">Exotic tastes at <br> your doorstep</h1>
+                                <p class="text-white py-3">We supply highly quality organic products</p>
+                                <button class="bg-[#F85559] text-white text-base py-2 px-4 rounded-lg">Shop Now</button>
+                            </div>
+                        </div>
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a> 
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hidden bg-white md:flex items-center justify-between md:h-40 lg:h-48 w-[85%] mx-auto shadow-xl p-5 md:-translate-y-10 lg:-translate-y-20 rounded-lg">
+                    <div class="text-center">
+                        <img src="images/fruit1.png">
+                        <p>Strawberry</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/fruit2.png">
+                        <p>Orange</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/fruit3.png">
+                        <p>Mango</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/fruit4.png">
+                        <p>Strawberry</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/fruit5.png">
+                        <p>Pomegranate</p>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+        <section class="my-18 lg:mx-20">
+            <div class="py-5 flex flex-col md:flex-row items-center justify-between">
+                <div class="md:w-1/2 p-5">
+                    <h1 class="text-4xl font-extrabold pb-3">Deal of the day</h1>
+                    <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <div class="md:w-1/2 p-5 flex justify-end">
+                    <div class="mr-4">
+                        <p class="text-3xl font-extrabold">29 :</p>
+                        <p>Day</p>
+                    </div>
+                    <div class="mr-4">
+                        <p class="text-3xl font-extrabold">15 :</p>
+                        <p>Hourse</p>
+                    </div>
+                    <div class="mr-4">
+                        <p class="text-3xl font-extrabold">25  :</p>
+                        <p>Minutes</p>
+                    </div>
+                    <div class="mr-4">
+                        <p class="text-3xl font-extrabold">58</p>
+                        <p>Second</p>
+                    </div>
+                       
+                </div>
+            </div>
+
+            <div class=" grid grid-cols-1 gap-3 py-10 md:grid-cols-2 lg:grid-cols-4">
+
+                <div class="mx-auto flex items-center justify-between">
+                    <div class="p-10 text-center border-2 rounded-lg">
+                        <img class="mx-auto" src="images/fruit6.png">
+                        <p class="py-8 text-2xl font-extrabold">12.90$ - 18.85$</p>
+                        <hr>
+                        <p class="py-3">Apples</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  checked  />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          </div>
+                          <p class="text-orange-500 font-medium py-3">Details</p>
+                    </div>
+                </div>
+                <div class="mx-auto flex items-center justify-between">
+                    <div class="p-10 text-center border-2 rounded-lg">
+                        <img class="mx-auto" src="images/fruit7.png">
+                        <p class="py-8 text-2xl font-extrabold">12.90$ - 18.85$</p>
+                        <hr>
+                        <p class="py-3">Orange</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  checked  />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          </div>
+                          <p class="text-orange-500 font-medium py-3">Details</p>
+                    </div>
+                </div>
+                <div class="mx-auto flex items-center justify-between">
+                    <div class="p-10 text-center border-2 rounded-lg">
+                        <img class="mx-auto" src="images/fruit8.png">
+                        <p class="py-8 text-2xl font-extrabold">12.90$ - 18.85$</p>
+                        <hr>
+                        <p class="py-3">Red Dragon</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  checked  />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          </div>
+                          <p class="text-orange-500 font-medium py-3">Details</p>
+                    </div>
+                </div>
+                <div class="mx-auto flex items-center justify-between">
+                    <div class="p-10 text-center border-2 rounded-lg">
+                        <img class="mx-auto" src="images/fruit9.png">
+                        <p class="py-8 text-2xl font-extrabold">12.90$ - 18.85$</p>
+                        <hr>
+                        <p class="py-3">Banana</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  checked  />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          </div>
+                          <p class="text-orange-500 font-medium py-3">Details</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
     <footer></footer>
 </body>
 </html>
